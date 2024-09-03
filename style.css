@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"poppins";
+  
+  
+}
+
+ body{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.background{
+ background-image:linear-gradient(0deg, rgba(50, 49, 49, 0.41), rgba(28, 28, 28, 0.642)),url(/images/WhatsApp\ Image\ 2024-08-19\ at\ 17.05.00_696ce6b0.jpg);
+ background-position:center;
+ background-repeat: no-repeat;
+ background-size:contain; 
+ width: 20rem; 
+ height: 37rem;
+ color: white;
+ position:relative;
+
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  gap: 55%;
+}
+
+.icons_left{
+  display: flex;
+  
+}
+.icons_right{
+  display: flex;
+  
+}
+
+.caller_ID{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.caller_ID ion-icon{
+  font-size: 8rem;
+  color: rgb(210, 208, 208);
+  
+}
+
+.number{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.number ion-icon{
+  font-size: small;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(3,1.5fr);
+  justify-items: center;
+  margin-top: 5.5rem;
+  gap: 1.4rem; 
+  padding:9px;
+}
+
+.buttons ion-icon{
+  font-size:1.7rem;
+}
+
+.bright_button_1 ion-icon{
+  transform: rotate(135deg);
+  background-color: red;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  color: white;
+
+}
+
+.buttons p{
+  font-size:small;
+}
+
+.dull_button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.4;
+  
+}
+
